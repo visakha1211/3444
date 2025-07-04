@@ -2,8 +2,10 @@
 #  EcoWise Insight Studio - 2025 (with advanced visuals)
 #  Place banner_ecowise.png next to this file.  Requirements above.
 # -------------------------------------------------------------------------
-import streamlit as st, pandas as pd, numpy as np, matplotlib.pyplot as plt
-from pathlib import Path; from base64 import b64encode
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 # === extra libs ===
 import plotly.express as px, plotly.graph_objects as go, scikitplot as skplt
