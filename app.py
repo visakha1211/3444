@@ -8,8 +8,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # === extra libs ===
-import plotly.express as px, plotly.graph_objects as go, scikitplot as skplt
-import shap, networkx as nx; from pyvis.network import Network
+# ── core libs ──────────────────────────────────────────────
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from pathlib import Path
+from base64 import b64encode
+import io, tempfile, os, json
+
+# ── viz / ML extras ────────────────────────────────────────
+import plotly.express as px
+import plotly.graph_objects as go
+import scikitplot as skplt
+import shap
+import networkx as nx
+from pyvis.network import Network
+
 import io, tempfile, os, json
 
 from sklearn.model_selection import train_test_split
